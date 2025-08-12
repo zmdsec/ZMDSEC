@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil GitHub - zmdsec</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #24292e;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .profile-info, .repos {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .profile-info h2, .repos h2 {
+            margin-top: 0;
+            color: #24292e;
+        }
+        .repo {
+            border-bottom: 1px solid #eee;
+            padding: 1rem 0;
+        }
+        .repo:last-child {
+            border-bottom: none;
+        }
+        .repo h3 {
+            margin: 0;
+            font-size: 1.4rem;
+        }
+        .repo p {
+            margin: 0.5rem 0;
+            color: #555;
+        }
+        .repo a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .repo a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #24292e;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .container {
+                padding: 0 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>zmdsec</h1>
+        <p>Desenvolvedor no GitHub</p>
+    </header>
+    <div class="container">
+        <section class="profile-info">
+            <h2>Sobre o Perfil</h2>
+            <p><strong>Usuário:</strong> zmdsec</p>
+            <p><strong>Repositórios Públicos:</strong> 4</p>
+            <p><strong>Descrição:</strong> Desenvolvedor focado em soluções de segurança, como gerenciadores de senhas e proxies. Membro recente do GitHub, com projetos em JavaScript e foco em criptografia moderna.</p>
+            <p><a href="https://github.com/zmdsec" target="_blank">Visitar Perfil no GitHub</a></p>
+        </section>
+        <section class="repos">
+            <h2>Repositórios Públicos</h2>
+            <div class="repo">
+                <h3>vaultlock</h3>
+                <p>Gerenciador de senhas seguro (Beta). Desenvolvido em JavaScript.</p>
+                <p><a href="https://github.com/zmdsec/vaultlock" target="_blank">Ver repositório</a></p>
+            </div>
+            <div class="repo">
+                <h3>arxsentinel-proxy</h3>
+                <p>Projeto de proxy voltado para segurança. Contribua para o desenvolvimento!</p>
+                <p><a href="https://github.com/zmdsec/arxsentinel-proxy" target="_blank">Ver repositório</a></p>
+            </div>
+            <div class="repo">
+                <h3>keyspire</h3>
+                <p>Gerenciador de senhas seguro e offline, utilizando criptografia moderna.</p>
+                <p><a href="https://github.com/zmdsec/keyspire" target="_blank">Ver repositório</a></p>
+            </div>
+            <div class="repo">
+                <h3>ArxVault---Gerenciador-de-Senhas-Seguro-no-Navegador</h3>
+                <p>Gerenciador de senhas seguro projetado para uso no navegador.</p>
+                <p><a href="https://github.com/zmdsec/ArxVault---Gerenciador-de-Senhas-Seguro-no-Navegador" target="_blank">Ver repositório</a></p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 - Página gerada com base no perfil GitHub de zmdsec</p>
+    </footer>
+</body>
+</html>
